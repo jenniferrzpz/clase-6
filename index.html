@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <title>AFIP</title>
+   <style> 
+        titulo-de-formulario {
+            color: aquamarine;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        
+        }
+</style>
+</head>
+<body>
+<!-- Encabezado -->
+    <header>
+        <h1>Formulario AFIP 420</h1>
+        <P>Formulario</P>
+    </header>
+    <nav>
+        <ul>
+            <li> <a href="#seccion1">Seccion 1</a></li>
+            <li> <a href="#seccion2">Seccion 2</a></li>
+            <li> <a href="#seccion3">Seccion 3</a></li>
+        </ul>
+    </nav>
+    <!-- Fin encabezado -->
+    <!-- Contenido -->
+    <form action="">
+        <fieldset>
+        <legend>
+                <titulo-de-formulario>Datos Personales</titulo-de-formulario>
+        </legend>
+        <label for="Nombres y Apellidos">Nombres y Apellidos</label>
+        <input  id="Nombres y Apellidos" type="text" ><br>
+        <label for="Date">Date</label>
+        <input id="date" type="date"><br>
+        <label for="Edad">Edad</label>
+        <input ID="Edad" type="number" ><br>
+        <!-- Tipo de sangre -->
+        <br>
+        <label for="tipo-de-sangre">Tipo de sangre</label>
+        <soan id="tipo-de-sangre">
+        <label for="tipo-de-sangre-0">0</label>
+        <input  ID= "tipo-de-sangre-0" name="tipo-de-sangre" type="radio">
+        <label for="tipo-de-sangre-A">A</label>
+        <input ID= "tipo-de-sangre-A" name="tipo-de-sangre" type="radio">
+        <label for="tipo-de-sangre-B">B</label>
+        <input ID= "tipo-de-sangre-B" name="tipo-de-sangre" type="radio">
+        <label for="tipo-de-sangre-AB">AB</label>
+        <input ID= "tipo-de-sangre-AB"name="tipo-de-sangre" type="radio">
+        </span> <br>
+        <!-- Fin tipo de sangre -->
+        <label for="rh-sangre">rh de sangre</label>
+        <select name="rh-sangre" id="rh-sangre">
+            <option value="" disabled>Seleccione su RH</option>
+            <option value="Positivo">Positivo</option>
+            <option value="Negativo">Negativo</option>
+            <option value="0">0</option>
+        </select>
+        <br>
+<label for="email">Email</label>
+  <input id="email" type="email"><br>
+  <label for="Telefono">Telefono</label>
+  <input id="Telefono" type="number" ><br>
+  <label for="DNI">DNI</label>
+  <input ID="DNI" type="number" ><br>
+  <label for="Tarjeta">Nro Trajeta de credito</label>
+  <input id="tarjeta" type="number" ><br>
+</fieldset>
+</form>
+    <!-- Fin contenido -->
+</body>
+</html> 
